@@ -117,3 +117,18 @@ ul {
   top: 50%;
   transform: translate(-50%,-50%);
 }
+
+.section {
+  position: relative;
+}
+
+.section-body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.footer {
+  background-color: #699;
+}
