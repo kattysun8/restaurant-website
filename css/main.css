@@ -84,3 +84,16 @@ ul {
   padding: 0;
   margin: 1.3em 0;
 }
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner-body {
+  position: absolute;
+  text-align: center;
+  right: 2.3rem;
+  bottom: 3rem;
+  max-width: 20em;
+}
