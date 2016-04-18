@@ -22,6 +22,12 @@ body {
   background-color: #ccffcc;
 }
 
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 header {
   position: relative;
 }
@@ -49,7 +55,8 @@ header {
   z-index: 1000;
   top: 3em;
   width: 100%;
-  background-color: #ffcccc;
+  background-color: #fcc;
+  overflow: hidden;
 }
 
 .nav-check:checked ~ .nav {
@@ -86,14 +93,27 @@ ul {
 }
 
 .banner {
-  position: relative;
   width: 100%;
+  position: relative;
 }
 
 .banner-body {
   position: absolute;
   text-align: center;
-  right: 2.3rem;
-  bottom: 3rem;
+  left: 50%;
+  top: 50%;
   max-width: 20em;
+  width: 100%;
+  transform: translate(-50%,-50%);
+}
+
+.card {
+  position: relative;
+}
+
+.card-body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
