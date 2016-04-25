@@ -140,6 +140,11 @@ ul {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: #fff;
+}
+
+.card-body h2:hover {
+  color: #e69900;
 }
 
 .section {
@@ -178,7 +183,7 @@ ul {
 .icons {
   width: 10%;
   position: absolute;
-  right: 0em;
+  right: 0;
 }
 
 .logo {
