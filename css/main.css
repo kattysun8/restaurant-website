@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   background-color: #fcc;
-  color: #e69900;
+  color: #fff;
 }
 
 .clearfix::after {
@@ -176,16 +176,19 @@ ul {
 }
 
 .icons {
-  float: right;
-  width: 40%;
+  width: 10%;
+  position: absolute;
+  right: 0em;
 }
 
 .logo {
   margin: 0;
+  max-width: 100%;
 }
 
 .social-media {
   margin: 0;
+  max-width: 100%;
 }
 
 small {
@@ -210,12 +213,16 @@ small {
   .section-h2 {
     float: left;
     width: 25%;
+    font-size: 90%;
+    padding-right: 2em;
+    text-align: left;
   }
 
   .section-p {
     float: right;
     width: 75%;
-    max-width: 95%;
+    max-width: 69%;
+    font-size: 90%;
   }
 
   .wide-section {
