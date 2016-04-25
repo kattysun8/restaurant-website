@@ -108,6 +108,27 @@ ul {
   width: 100%;
   transform: translate(-50%, -50%);
   font-family: sans-serif;
+  color: #fff;
+}
+
+.banner-btn {
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 0.4em 0.75em 0.3em;
+  display: inline-block;
+  margin: 0.5em 2em;
+  font-size: 0.875rem;
+  border: solid 3px;
+  background-color: #ccc;
+  color: #fff;
+}
+
+.banner-btn:hover {
+  background-color: #e69900;
+}
+
+.banner-img-wide {
+  display: none;
 }
 
 .card {
@@ -215,6 +236,13 @@ small {
     line-height: 1.4;
   }
 
+  .banner-img {
+    display: none;
+  }
+
+  .banner-img-wide {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -230,6 +258,27 @@ small {
     float: left;
   }
 
+  .nav-btn {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    padding: 0;
+    position: static;
+    float: right;
+    width: 70%;
+  }
+
+  .nav li a {
+    padding: 1.78em 1em;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -237,6 +286,10 @@ small {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .nav li a {
+    padding: 2.7em 1em;
   }
 
 }
